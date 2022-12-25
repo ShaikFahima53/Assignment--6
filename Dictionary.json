@@ -1,0 +1,4 @@
+import json
+dict={"Uttar-Pradesh":-"Lucknow","Bihar":-"Patna","Himal-Pradesh":-"Shimla","Madhya-Pradesh":-"Indore"
+json_object=-json.dumps(dict,indent=4,seperators=(",","="))
+print(json_object)
